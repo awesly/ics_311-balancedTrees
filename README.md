@@ -1,7 +1,5 @@
-# ics_311-balancedTrees
-By Alana Wesly, 06/10/2025. ICS 311 Assigment 2, balanced trees with Olelo Noeau example.
-
-# Explanation
+# ics_311-balancedTrees - Explanation
+By Alana Wesly, 06/10/2025. ICS 311 Assigment 2, balanced trees implementing Olelo Noeau example.
 
 # Effectiveness and Efficiency of Data Structures
   A balanced binary search tree was used to create a database of Olelo Noeau, or Hawaiian proverbs and their English translations. The use of a balanced tree in the first place is ideal because it decreases the amount of nodes that any given algorithm would have to access to do a task, which makes both the runtime and memory use smaller. Balanced trees have a time complexity of O(log n) for the operations used for the proverb dictionary, including searching, inserting, identifying the first and last in order, and the element before or after annother element in order.  This is an ideal time complexity, as it is one of the lowest runtime options possible, along with O(1). Specifically a binary search tree was used for the implementation of a balanced tree, because it allows for the balanced tree to retain a specific ordering, which is important for operations with strings, that benefit from them being alphebetically sorted. 
